@@ -50,14 +50,15 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="flex justify-center"
         >
-          <div className="relative">
-            <div className="absolute inset-0 bg-cyan-400/30 blur-3xl rounded-full"></div>
-<img
-  src={hero}
-  alt="hero"
-className="relative w-[350px] h-[450px] object-cover rounded-3xl border border-white/10 shadow-2xl"
- />
-          </div>
+        <div className="relative">
+  <div className="absolute inset-0 bg-cyan-400/20 blur-3xl rounded-3xl"></div>
+
+  <img
+    src={hero}
+    alt="hero"
+    className="relative w-[280px] md:w-[380px] lg:w-[450px] rounded-3xl object-cover border border-white/10 shadow-2xl"
+  />
+</div>
         </motion.div>
       </div>
     </section>
