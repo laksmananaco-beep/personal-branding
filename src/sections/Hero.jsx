@@ -55,7 +55,7 @@ export default function Hero() {
 <img
   src={hero}
   alt="hero"
-  className="w-full max-w-[500px] object-cover"
+className="relative w-[350px] h-[450px] object-cover rounded-3xl border border-white/10 shadow-2xl"
  />
           </div>
         </motion.div>
