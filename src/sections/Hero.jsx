@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import hero from "../assets/hero.jpg";
 
 export default function Hero() {
   return (
@@ -51,12 +52,11 @@ export default function Hero() {
         >
           <div className="relative">
             <div className="absolute inset-0 bg-cyan-400/30 blur-3xl rounded-full"></div>
-
-            <img
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
-              alt="profile"
-              className="relative w-[350px] h-[450px] object-cover rounded-3xl border border-white/10 shadow-2xl"
-            />
+<img
+  src={hero}
+  alt="hero"
+  className="w-full max-w-[500px] object-cover"
+ />
           </div>
         </motion.div>
       </div>
