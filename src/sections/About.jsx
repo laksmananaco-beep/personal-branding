@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section className="bg-[#0a0a0a] text-white py-24 px-6">
+    <section id="about" className="bg-[#0a0a0a] text-white py-24 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
 
         {/* FOTO */}
@@ -17,7 +17,7 @@ export default function About() {
             <div className="absolute inset-0 bg-cyan-400/20 blur-3xl rounded-3xl"></div>
 
             <img
-              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d"
+              src="https:{profile}///photo-1506794778202-cad84cf45f1d"
               alt="about"
               className="relative w-[320px] rounded-3xl border border-white/10"
             />

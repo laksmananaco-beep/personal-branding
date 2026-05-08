@@ -16,23 +16,37 @@ export default function Navbar() {
         </h1>
 
         {/* Menu */}
-        <ul className="hidden md:flex gap-8 text-gray-300 font-medium">
-          <li className="hover:text-cyan-400 transition cursor-pointer">
-            Home
-          </li>
-          <li className="hover:text-cyan-400 transition cursor-pointer">
-            About
-          </li>
-          <li className="hover:text-cyan-400 transition cursor-pointer">
-            Services
-          </li>
-          <li className="hover:text-cyan-400 transition cursor-pointer">
-            Portfolio
-          </li>
-          <li className="hover:text-cyan-400 transition cursor-pointer">
-            Contact
-          </li>
-        </ul>
+     <ul className="flex gap-8 text-white font-medium">
+  <li>
+    <a href="#home" className="hover:text-cyan-400 transition">
+      Home
+    </a>
+  </li>
+
+  <li>
+    <a href="#about" className="hover:text-cyan-400 transition">
+      About
+    </a>
+  </li>
+
+  <li>
+    <a href="#services" className="hover:text-cyan-400 transition">
+      Services
+    </a>
+  </li>
+
+  <li>
+    <a href="#portfolio" className="hover:text-cyan-400 transition">
+      Portfolio
+    </a>
+  </li>
+
+  <li>
+    <a href="#contact" className="hover:text-cyan-400 transition">
+      Contact
+    </a>
+  </li>
+</ul>
 
         {/* Button */}
         <button className="bg-cyan-400 hover:bg-cyan-500 text-black font-semibold px-5 py-2 rounded-full transition shadow-lg shadow-cyan-500/30">

@@ -23,7 +23,7 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <section className="bg-[#0a0a0a] text-white py-24 px-6">
+   <section id="portfolio" className="bg-[#0a0a0a] text-white py-24 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* TITLE */}
