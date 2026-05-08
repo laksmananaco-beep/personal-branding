@@ -35,7 +35,7 @@ export default function Contact() {
               </h3>
 
               <p className="text-gray-400">
-                your@email.com
+                laksmananaco@gmail.com
               </p>
             </div>
 
@@ -46,7 +46,7 @@ export default function Contact() {
               </h3>
 
               <p className="text-gray-400">
-                @yourusername
+             @laks08
               </p>
             </div>
 
@@ -57,7 +57,7 @@ export default function Contact() {
               </h3>
 
               <p className="text-gray-400">
-                +62 812 xxxx xxxx
+                083156623206
               </p>
             </div>
 
@@ -66,7 +66,13 @@ export default function Contact() {
           {/* BUTTON */}
           <div className="mt-12">
             <button className="bg-cyan-400 hover:bg-cyan-500 text-black px-8 py-4 rounded-full font-semibold transition shadow-lg shadow-cyan-500/20">
-              Start Project
+              <a
+  href="https://wa.me/6283156623206"
+  target="_blank"
+  className="bg-cyan-400 hover:bg-cyan-500 text-black px-8 py-4 rounded-full font-semibold transition shadow-lg shadow-cyan-500/20 inline-block"
+>
+  Start Project
+</a>
             </button>
           </div>
 

@@ -12,7 +12,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <h1 className="text-white text-2xl font-bold tracking-wide">
-          Gigz<span className="text-cyan-400">Dev</span>
+          Laks<span className="text-cyan-400">Dev</span>
         </h1>
 
         {/* Menu */}
