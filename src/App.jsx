@@ -6,7 +6,6 @@ import About from "./sections/About";
 import Services from "./sections/Services";
 import Portfolio from "./sections/Portfolio";
 import Contact from "./sections/Contact";
-import profile from "../assets/profile.jpg";
 
 export default function App() {
   return (
