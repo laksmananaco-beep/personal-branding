@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import profile from "../assets/profile.jpg";
 
 export default function About() {
   return (
@@ -16,11 +17,11 @@ export default function About() {
           <div className="relative">
             <div className="absolute inset-0 bg-cyan-400/20 blur-3xl rounded-3xl"></div>
 
-            <img
-              src="https:{profile}///photo-1506794778202-cad84cf45f1d"
-              alt="about"
-              className="relative w-[320px] rounded-3xl border border-white/10"
-            />
+          <img
+  src={profile}
+  alt="about"
+  className="relative w-[320px] rounded-3xl border border-white/10"
+/>
           </div>
         </motion.div>
 
