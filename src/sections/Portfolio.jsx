@@ -71,9 +71,10 @@ export default function Portfolio() {
                 </h3>
 
                 <button className="bg-cyan-400 hover:bg-cyan-500 text-black px-5 py-2 rounded-full font-medium transition shadow-lg shadow-cyan-500/20">
-                 <a
+<a
   href="https://personal-branding-peach.vercel.app/"
   target="_blank"
+  rel="noopener noreferrer"
   className="bg-cyan-400 hover:bg-cyan-500 text-black px-5 py-2 rounded-full font-medium transition shadow-lg shadow-cyan-500/20 inline-block"
 >
   Live Demo

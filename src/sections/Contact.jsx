@@ -66,13 +66,15 @@ export default function Contact() {
           {/* BUTTON */}
           <div className="mt-12">
             <button className="bg-cyan-400 hover:bg-cyan-500 text-black px-8 py-4 rounded-full font-semibold transition shadow-lg shadow-cyan-500/20">
-              <a
+            <a
   href="https://wa.me/6283156623206"
   target="_blank"
+  rel="noopener noreferrer"
   className="bg-cyan-400 hover:bg-cyan-500 text-black px-8 py-4 rounded-full font-semibold transition shadow-lg shadow-cyan-500/20 inline-block"
 >
   Start Project
 </a>
+
             </button>
           </div>
 
