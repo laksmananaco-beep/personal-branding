@@ -11,12 +11,14 @@ export default function App() {
   return (
     <div className="bg-black overflow-hidden">
       <Navbar />
-      <footer/>
+      
       <Hero />
       <About />
-      <Services />
+      <Services/>
       <Portfolio/>
       <Contact/>
+
+      <footer/>
     </div>
   );
 }
