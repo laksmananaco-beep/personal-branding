@@ -55,9 +55,9 @@ export default function Hero() {
 
   <img
     src={hero}
-    alt="hero"
-    className="relative w-[280px] md:w-[380px] lg:w-[450px] rounded-3xl object-cover border border-white/10 shadow-2xl"
-  />
+     alt="profile"
+              className="relative w-[350px] h-[450px] object-cover rounded-3xl border border-white/10 shadow-2xl"
+            />
 </div>
         </motion.div>
       </div>
