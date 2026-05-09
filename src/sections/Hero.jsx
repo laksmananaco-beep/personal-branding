@@ -50,7 +50,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="flex justify-center"
         >
-        <div className="relative">
+<div className="relative">
   <div className="absolute inset-0 bg-cyan-400/20 blur-3xl rounded-3xl"></div>
 
   <img
