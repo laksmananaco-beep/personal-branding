@@ -70,7 +70,7 @@ export default function Portfolio() {
                   {project.title}
                 </h3>
 
-                <button className="bg-cyan-400 hover:bg-cyan-500 text-black px-5 py-2 rounded-full font-medium transition shadow-lg shadow-cyan-500/20">
+                
 <a
   href="https://personal-branding-peach.vercel.app/"
   target="_blank"
@@ -79,7 +79,7 @@ export default function Portfolio() {
 >
   Live Demo
 </a>
-                </button>
+                
 
               </div>
             </motion.div>
